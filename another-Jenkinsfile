@@ -1,0 +1,1 @@
+echo(/branch=$BRANCH_NAME/); node {checkout scm; echo readFile('file')}
