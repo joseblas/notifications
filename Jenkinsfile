@@ -10,6 +10,7 @@ stage ("QA Test") {
     timeout(time: 5, unit: 'MINUTES'){
         echo "QA tests..."
         sleep 2
+        input message: 'Should I fail? Yeah, I should.', id:'Icecream'
        }
     } 
   }
