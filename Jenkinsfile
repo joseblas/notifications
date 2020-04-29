@@ -9,7 +9,7 @@ stage ("QA Test") {
    node () {
     timeout(time: 5, unit: 'MINUTES'){
         echo "QA tests..."
-        sleep 2
+        sleep 1
         input message: 'Should I fail? Yeah, I should.', id:'Icecream'
        }
     } 
